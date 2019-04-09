@@ -1,0 +1,35 @@
+{
+  "name": "simple_passport_auth",
+  "version": "1.0.0",
+  "description": "simple nodejs authentication with passport",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mehrankto/simple_passport_auth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mehrankto/simple_passport_auth/issues"
+  },
+  "homepage": "https://github.com/mehrankto/simple_passport_auth#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.15.6",
+    "mongodb": "^3.2.3",
+    "mongoose": "^5.5.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
